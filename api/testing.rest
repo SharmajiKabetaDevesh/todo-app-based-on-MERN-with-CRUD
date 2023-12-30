@@ -1,0 +1,25 @@
+GET http://localhost:5000/todos
+
+
+###
+
+POST http://localhost:5000/todo/new
+Content-Type:application/json
+
+{
+    "text":"Order an pizza"
+}
+###
+POST http://localhost:5000/todo/new
+Content-Type:application/json
+
+{
+    "text":"Harami Samose lekar aa"
+}
+
+###
+DELETE  http://localhost:5000/todo/delete/659019122c3014c9aedae940
+
+
+###
+GET  http://localhost:5000/todo/complete/659021c10b2b5c0f8ee327da
